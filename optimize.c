@@ -34,6 +34,12 @@ static const char rcsid[] _U_ =
 #include <memory.h>
 #include <string.h>
 
+#ifdef HAVE_STRINGS_H
+#include <strings.h>
+#else
+#include <fss.h>
+#endif
+
 #include <errno.h>
 
 #include "pcap-int.h"
@@ -1360,7 +1366,6 @@ fold_edge(child, ep)
 	return 0;
 }
 
-#include "ffs.h"
 static void
 opt_j(ep)
 	struct edge *ep;
