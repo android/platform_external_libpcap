@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "0b7777c2_16faba18",
+        "filename": "pcap-netfilter-linux-android.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-01-15T23:01:22Z",
+      "side": 1,
+      "message": "why aren\u0027t you using __BEGIN_DECLS/__END_DECLS?",
+      "parentUuid": "0b7777c2_764a0ef9",
+      "revId": "3fbb396ce68e28df8a33f06adf014f804b608576",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0b49377c_e642c08c",
         "filename": "pcap-netfilter-linux-android.h",
         "patchSetId": 1
@@ -83,6 +101,24 @@
       "side": 1,
       "message": "sys/types.h?",
       "parentUuid": "0b49377c_e642c08c",
+      "revId": "3fbb396ce68e28df8a33f06adf014f804b608576",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b7777c2_361816e2",
+        "filename": "pcap-netfilter-linux-android.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-01-15T23:01:22Z",
+      "side": 1,
+      "message": "my point was \"you don\u0027t #include anything in this file\".\n\nyou should probably also use uint16_t and uint8_t unless you\u0027re going for the retro BSD look.",
+      "parentUuid": "0b7777c2_769c4ef9",
       "revId": "3fbb396ce68e28df8a33f06adf014f804b608576",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
