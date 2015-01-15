@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b49377c_69c8e1b7",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-01-15T19:29:31Z",
+      "side": 1,
+      "message": "-D__GLIBC__?!",
+      "revId": "3fbb396ce68e28df8a33f06adf014f804b608576",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b49377c_8639cc10",
+        "filename": "pcap-netfilter-linux-android.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-01-15T19:29:31Z",
+      "side": 1,
+      "message": "__BEGIN_DECLS/__END_DECLS?",
+      "revId": "3fbb396ce68e28df8a33f06adf014f804b608576",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b49377c_e642c08c",
+        "filename": "pcap-netfilter-linux-android.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-01-15T19:29:31Z",
+      "side": 1,
+      "message": "what header defines u_int8_t?",
+      "revId": "3fbb396ce68e28df8a33f06adf014f804b608576",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
