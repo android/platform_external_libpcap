@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "99f3ea1a_d37d16a4",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2015-10-20T20:36:49Z",
+      "side": 1,
+      "message": "Any chance that the tests could be compiled too?",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 0
+      },
+      "revId": "c06f40cfa57dc28969c1393ddd79b3353da6d8ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "791716fc_18b5e91c",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2015-10-20T20:36:49Z",
+      "side": 1,
+      "message": "extra space",
+      "range": {
+        "startLine": 6,
+        "startChar": 31,
+        "endLine": 6,
+        "endChar": 32
+      },
+      "revId": "c06f40cfa57dc28969c1393ddd79b3353da6d8ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39de7e5b_d7a7ef28",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2015-10-20T20:36:49Z",
+      "side": 1,
+      "message": "Is this leftover from something?",
+      "range": {
+        "startLine": 18,
+        "startChar": 32,
+        "endLine": 18,
+        "endChar": 33
+      },
+      "revId": "c06f40cfa57dc28969c1393ddd79b3353da6d8ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
