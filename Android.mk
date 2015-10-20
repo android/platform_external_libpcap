@@ -1,21 +1,23 @@
 LOCAL_PATH:= $(call my-dir)
+
 include $(CLEAR_VARS)
 
-libpcap_PSRC =	pcap-linux.c pcap-usb-linux.c  pcap-can-linux.c pcap-netfilter-linux.c pcap-netfilter-linux-android.c
-libpcap_FSRC =  fad-gifc.c
-libpcap_CSRC =	pcap.c inet.c gencode.c optimize.c nametoaddr.c etherent.c \
-	savefile.c sf-pcap.c sf-pcap-ng.c pcap-common.c \
-	bpf_image.c bpf_dump.c
-libpcap_GENSRC = scanner.c grammar.c bpf_filter.c version.c
+LOCAL_SRC_FILES := \
+  pcap-linux.c pcap-usb-linux.c  pcap-can-linux.c pcap-netfilter-linux.c pcap-netfilter-linux-android.c \
+  fad-gifc.c \
+  pcap.c inet.c gencode.c optimize.c nametoaddr.c etherent.c \
+  savefile.c sf-pcap.c sf-pcap-ng.c pcap-common.c \
+  bpf/net/bpf_filter.c bpf_image.c bpf_dump.c \
+  version.c \
 
-libpcap_SRC =	$(libpcap_PSRC) $(libpcap_FSRC) $(libpcap_CSRC) $(libpcap_GENSRC)
+# Generated on the host with `configure && make` and copied across.
+LOCAL_SRC_FILES += grammar.c
+LOCAL_SRC_FILES += scanner.c
 
-
-LOCAL_SRC_FILES:=\
-	$(libpcap_SRC)
-
-LOCAL_CFLAGS:=-O2 -g
-LOCAL_CFLAGS+=-DHAVE_CONFIG_H -D_U_="__attribute__((unused))" -Dlinux -D__GLIBC__ -D_GNU_SOURCE
+LOCAL_CFLAGS += -Wno-unused-parameter -Wno-sign-compare
+LOCAL_CFLAGS += -DHAVE_CONFIG_H #
+LOCAL_CFLAGS += -D_U_="__attribute__((unused))" 
+LOCAL_CFLAGS += -include strings.h # For ffs(3).
 
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)
 
