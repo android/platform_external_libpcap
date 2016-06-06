@@ -849,8 +849,8 @@ union yyalloc
       {                                                                 \
         YYSIZE_T yynewbytes;                                            \
         YYCOPY (&yyptr->Stack_alloc, Stack, yysize);                    \
-        Stack = &yyptr->Stack_alloc;                                    \
-        yynewbytes = yystacksize * sizeof (*Stack) + YYSTACK_GAP_MAXIMUM; \
+        (Stack) = &yyptr->Stack_alloc;                                  \
+        yynewbytes = yystacksize * sizeof (*(Stack)) + YYSTACK_GAP_MAXIMUM; \
         yyptr += yynewbytes / sizeof (*yyptr);                          \
       }                                                                 \
     while (0)
@@ -1027,12 +1027,12 @@ static const yytype_uint16 yytoknum[] =
 };
 # endif
 
-#define YYPACT_NINF -216
+#define YYPACT_NINF (-216)
 
 #define yypact_value_is_default(Yystate) \
   (!!((Yystate) == (-216)))
 
-#define YYTABLE_NINF -42
+#define YYTABLE_NINF (-42)
 
 #define yytable_value_is_error(Yytable_value) \
   0

@@ -139,7 +139,7 @@ typedef unsigned int flex_uint32_t;
  * we want to instead treat it as an 8-bit unsigned char, hence the
  * double cast.
  */
-#define YY_SC_TO_UI(c) ((unsigned int) (unsigned char) c)
+#define YY_SC_TO_UI(c) ((unsigned int) (unsigned char) (c))
 
 /* Enter a start condition.  This macro really ought to take a parameter,
  * but we do it the disgusting crufty way forced on us by the ()-less
@@ -155,7 +155,7 @@ typedef unsigned int flex_uint32_t;
 #define YYSTATE YY_START
 
 /* Action number for EOF rule of a given start state. */
-#define YY_STATE_EOF(state) (YY_END_OF_BUFFER + state + 1)
+#define YY_STATE_EOF(state) (YY_END_OF_BUFFER + (state) + 1)
 
 /* Special action meaning "start processing a new file". */
 #define YY_NEW_FILE pcap_restart(pcap_in  )
@@ -2878,19 +2878,19 @@ static int input (void );
 		{ \
 		int c = '*'; \
 		size_t n; \
-		for ( n = 0; n < max_size && \
+		for ( n = 0; n < (max_size) && \
 			     (c = getc( pcap_in )) != EOF && c != '\n'; ++n ) \
-			buf[n] = (char) c; \
+			(buf)[n] = (char) c; \
 		if ( c == '\n' ) \
-			buf[n++] = (char) c; \
+			(buf)[n++] = (char) c; \
 		if ( c == EOF && ferror( pcap_in ) ) \
 			YY_FATAL_ERROR( "input in flex scanner failed" ); \
-		result = n; \
+		(result) = n; \
 		} \
 	else \
 		{ \
 		errno=0; \
-		while ( (result = fread(buf, 1, max_size, pcap_in))==0 && ferror(pcap_in)) \
+		while ( ((result) = fread(buf, 1, max_size, pcap_in))==0 && ferror(pcap_in)) \
 			{ \
 			if( errno != EINTR) \
 				{ \

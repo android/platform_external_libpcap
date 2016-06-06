@@ -103,8 +103,8 @@
 #include <netinet/in.h>
 #endif
 
-#define EXTRACT_SHORT(p)	((u_short)ntohs(*(u_short *)p))
-#define EXTRACT_LONG(p)		(ntohl(*(u_int32 *)p))
+#define EXTRACT_SHORT(p)	((u_short)ntohs(*(u_short *)(p)))
+#define EXTRACT_LONG(p)		(ntohl(*(u_int32 *)(p)))
 #else
 #define EXTRACT_SHORT(p)\
 	((u_short)\
