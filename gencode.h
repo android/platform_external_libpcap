@@ -222,7 +222,7 @@ struct slist {
  */
 typedef bpf_u_int32 atomset;
 #define ATOMMASK(n) (1 << (n))
-#define ATOMELEM(d, n) (d & ATOMMASK(n))
+#define ATOMELEM(d, n) ((d) & ATOMMASK(n))
 
 /*
  * An unbounded set.

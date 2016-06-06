@@ -73,7 +73,7 @@ int	pcap_nametollc(const char *);
  * If there are ambiguous entried in /etc/services (i.e. domain
  * can be either tcp or udp) PROTO_UNDEF is returned.
  */
-#define PROTO_UNDEF		-1
+#define PROTO_UNDEF		(-1)
 
 /* XXX move these to pcap-int.h? */
 int __pcap_atodn(const char *, bpf_u_int32 *);

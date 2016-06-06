@@ -70,7 +70,7 @@ int ffs(int mask);
 /*
  * Represents a deleted instruction.
  */
-#define NOP -1
+#define NOP (-1)
 
 /*
  * Register numbers for use-def values.
@@ -152,7 +152,7 @@ bpf_u_int32 *space;
  */
 #define SET_INTERSECT(a, b, n)\
 {\
-	register bpf_u_int32 *_x = a, *_y = b;\
+	register bpf_u_int32 *_x = (a), *_y = b;\
 	register int _n = n;\
 	while (--_n >= 0) *_x++ &= *_y++;\
 }
@@ -162,7 +162,7 @@ bpf_u_int32 *space;
  */
 #define SET_SUBTRACT(a, b, n)\
 {\
-	register bpf_u_int32 *_x = a, *_y = b;\
+	register bpf_u_int32 *_x = (a), *_y = b;\
 	register int _n = n;\
 	while (--_n >= 0) *_x++ &=~ *_y++;\
 }
@@ -172,7 +172,7 @@ bpf_u_int32 *space;
  */
 #define SET_UNION(a, b, n)\
 {\
-	register bpf_u_int32 *_x = a, *_y = b;\
+	register bpf_u_int32 *_x = (a), *_y = b;\
 	register int _n = n;\
 	while (--_n >= 0) *_x++ |= *_y++;\
 }
