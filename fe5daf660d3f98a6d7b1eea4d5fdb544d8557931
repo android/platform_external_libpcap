@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "39c4907b_20d11d03",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2017-05-15T20:21:05Z",
+      "side": 1,
+      "message": "We usually prefer cc_defaults modules over variables like this.",
+      "revId": "fe5daf660d3f98a6d7b1eea4d5fdb544d8557931",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "08787620_e2e0db70",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2017-05-15T20:21:05Z",
+      "side": 1,
+      "message": "Run this through bpfmt",
+      "revId": "fe5daf660d3f98a6d7b1eea4d5fdb544d8557931",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e01446af_a590f5ba",
         "filename": "Android.bp",
         "patchSetId": 2
@@ -13,6 +47,30 @@
       "writtenOn": "2017-05-11T02:54:52Z",
       "side": 1,
       "message": "good way to de-duplicate / shorten this ?",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 1
+      },
+      "revId": "fe5daf660d3f98a6d7b1eea4d5fdb544d8557931",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "15f26628_85c7ba51",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2017-05-15T20:21:05Z",
+      "side": 1,
+      "message": "List all the sources in one cc_test module, and add test_per_src: true",
+      "parentUuid": "e01446af_a590f5ba",
       "range": {
         "startLine": 47,
         "startChar": 0,
