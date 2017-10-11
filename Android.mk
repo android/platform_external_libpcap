@@ -6,6 +6,7 @@ libpcap_cflags := \
   -Wno-sign-compare \
   -Wno-unused-parameter \
   -D_BSD_SOURCE \
+  -DHAVE_STRLCPY \
   -D_U_="__attribute__((unused))" \
   -Werror \
 
