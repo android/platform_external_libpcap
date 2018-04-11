@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "304439bf_1ff2f42a",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-04-11T15:43:57Z",
+      "side": 1,
+      "message": "This is the default",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 26
+      },
+      "revId": "8930a91743f563f9586cd945e7f675eac35e2986",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "58ee889b_d73b9e7e",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-04-11T15:43:57Z",
+      "side": 1,
+      "message": "Why vndk vs just vendor_available? This\u0027ll mean that we\u0027ll install a .so in the vndk on all devices.",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 22
+      },
+      "revId": "8930a91743f563f9586cd945e7f675eac35e2986",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "71f4ca01_145eb953",
         "filename": "Android.bp",
         "patchSetId": 3
