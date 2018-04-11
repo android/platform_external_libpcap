@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "c37fa8f3_816cb2f6",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-04-11T16:13:22Z",
+      "side": 1,
+      "message": "😀",
+      "parentUuid": "9d29223f_7ec84051",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 26
+      },
+      "revId": "8930a91743f563f9586cd945e7f675eac35e2986",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "58ee889b_d73b9e7e",
         "filename": "Android.bp",
         "patchSetId": 3
@@ -84,6 +108,30 @@
       "side": 1,
       "message": "this was a copy \u0026 paste.\n\nbut isn\u0027t this what i want, since there are no ABI guarantees upstream?",
       "parentUuid": "58ee889b_d73b9e7e",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 22
+      },
+      "revId": "8930a91743f563f9586cd945e7f675eac35e2986",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b7d68992_b39eafa8",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-04-11T16:13:22Z",
+      "side": 1,
+      "message": "VNDK requires ABI (\u0026API behavior) compatibility guarantees for security updates, so if you\u0027re not signing up for that, it should just be vendor_available, which allows vendors to copy it into vendor if they\u0027re using it.\n\nVNDK does not require stability from release to release, it\u0027ll use the library from the matching release.",
+      "parentUuid": "55b79ca1_4c96cdf5",
       "range": {
         "startLine": 38,
         "startChar": 0,
