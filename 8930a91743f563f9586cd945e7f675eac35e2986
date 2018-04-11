@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9d29223f_7ec84051",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2018-04-11T15:52:20Z",
+      "side": 1,
+      "message": "you don\u0027t think there\u0027s value to explicitly telling dwillemsen that, no, i don\u0027t want to support this on darwin? :-)",
+      "parentUuid": "304439bf_1ff2f42a",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 26
+      },
+      "revId": "8930a91743f563f9586cd945e7f675eac35e2986",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "58ee889b_d73b9e7e",
         "filename": "Android.bp",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2018-04-11T15:43:57Z",
       "side": 1,
       "message": "Why vndk vs just vendor_available? This\u0027ll mean that we\u0027ll install a .so in the vndk on all devices.",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 22
+      },
+      "revId": "8930a91743f563f9586cd945e7f675eac35e2986",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "55b79ca1_4c96cdf5",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2018-04-11T15:52:20Z",
+      "side": 1,
+      "message": "this was a copy \u0026 paste.\n\nbut isn\u0027t this what i want, since there are no ABI guarantees upstream?",
+      "parentUuid": "58ee889b_d73b9e7e",
       "range": {
         "startLine": 38,
         "startChar": 0,
