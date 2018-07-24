@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7cc6a9e6_7467782b",
+        "filename": "NOTICE",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2018-07-24T05:01:02Z",
+      "side": 0,
+      "message": "oops... every project should have a NOTICE symlink to whatever file is the project\u0027s license file, or, if the project doesn\u0027t include a license file, NOTICE should be a text file that contains a copy of the license. so we should keep this file.",
+      "revId": "ba51ee392e9b2d5dd04faaf695b1da82488d0323",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
