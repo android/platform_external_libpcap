@@ -16,6 +16,24 @@
       "revId": "ba51ee392e9b2d5dd04faaf695b1da82488d0323",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7da85308_4133d71d",
+        "filename": "NOTICE",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1307957
+      },
+      "writtenOn": "2018-07-24T16:46:20Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "7cc6a9e6_7467782b",
+      "revId": "ba51ee392e9b2d5dd04faaf695b1da82488d0323",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
