@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f9a7a9b6_d59a5f6e",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000835
+      },
+      "writtenOn": "2018-11-21T09:10:00Z",
+      "side": 1,
+      "message": "No tabs.",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 1
+      },
+      "revId": "ccd1d01636de27c4831b1ced2f4138ca00b8b06d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
