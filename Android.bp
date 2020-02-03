@@ -66,6 +66,8 @@ cc_library {
     },
 
     export_include_dirs: ["."],
+
+    sdk_version: "29",
 }
 
 //
