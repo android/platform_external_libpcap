@@ -16,6 +16,24 @@
       "revId": "9855f8cc5ee6a4185a2abc3ef60838022bdf10c7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "19972c90_7b7af3e6",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-02-03T16:14:02Z",
+      "side": 1,
+      "message": "(to clarify, i meant a _code_ comment here. that the _checkin_ comment doesn\u0027t even motivate the change is a separate issue :-) )",
+      "parentUuid": "da5f9ff7_8ec2be22",
+      "revId": "9855f8cc5ee6a4185a2abc3ef60838022bdf10c7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
