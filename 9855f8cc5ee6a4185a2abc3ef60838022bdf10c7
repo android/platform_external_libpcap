@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da5f9ff7_8ec2be22",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-02-03T16:13:14Z",
+      "side": 1,
+      "message": "you don\u0027t actually care about 29 though, right? you really mean to say \"oldest_still_supported_apex_version\"? can you add a comment to that effect.\n\njiyong: seems like the build system should actually support \"oldest_still_supported_apex_version\" (ideally with a snappier name)? this seems unlikely to be the last time we need this, and we\u0027ll want to be able to keep marching these forward, even if it\u0027s 3 or 5 years behind \"true\" current.\n\n(actually: maybe that\u0027s the best name --- we should just keep \"current\", but in an apex_available context, that actually means \"oldest_still_supported_apex_version\"?)\n\nwhatever, we shouldn\u0027t just be dropping random \"29\"s around the tree. we already have enough unexplained random versions in modules that no-one knows whether they can change.\n\n(supplementary question: why isn\u0027t this apex_available?)",
+      "revId": "9855f8cc5ee6a4185a2abc3ef60838022bdf10c7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
