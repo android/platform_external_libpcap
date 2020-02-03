@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d2f2b90f_ac4a3313",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2020-02-03T03:42:35Z",
+      "side": 1,
+      "message": "if sdk_version: \"29\" works, that would be better.",
+      "range": {
+        "startLine": 70,
+        "startChar": 4,
+        "endLine": 70,
+        "endChar": 27
+      },
+      "revId": "2fbcc97534dd4c1f6f3bf39563b055278a68fe82",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
