@@ -16,6 +16,9 @@
 /* define if we have the AIX getprotobyname_r() */
 /* #undef HAVE_AIX_GETPROTOBYNAME_R */
 
+/* Define to 1 if you have the `asprintf' function. */
+#define HAVE_ASPRINTF 1
+
 /* Define to 1 if you have the <dagapi.h> header file. */
 /* #undef HAVE_DAGAPI_H */
 
@@ -44,7 +47,7 @@
 /* #undef HAVE_DL_PASSIVE_REQ_T */
 
 /* Define to 1 if you have the `ether_hostton' function. */
-/* #undef HAVE_ETHER_HOSTTON */
+#define HAVE_ETHER_HOSTTON 1
 
 /* Define to 1 if you have the `ffs' function. */
 #define HAVE_FFS 1
@@ -54,6 +57,9 @@
 
 /* Define to 1 if you have the `getspnam' function. */
 /* #undef HAVE_GETSPNAM */
+
+/* Define to 1 if you have a GNU-style `strerror_r' function. */
+#define HAVE_GNU_STRERROR_R /**/
 
 /* on HP-UX 10.20 or later */
 /* #undef HAVE_HPUX10_20_OR_LATER */
@@ -95,10 +101,10 @@
 #define HAVE_LINUX_ETHTOOL_H 1
 
 /* define if we have the Linux getnetbyname_r() */
-/* #undef HAVE_LINUX_GETNETBYNAME_R */
+#define HAVE_LINUX_GETNETBYNAME_R 1
 
 /* define if we have the Linux getprotobyname_r() */
-/* #undef HAVE_LINUX_GETPROTOBYNAME_R */
+#define HAVE_LINUX_GETPROTOBYNAME_R 1
 
 /* Define to 1 if you have the <linux/if_bonding.h> header file. */
 #define HAVE_LINUX_IF_BONDING_H 1
@@ -151,6 +157,9 @@
 /* define if net/pfvar.h defines PF_NAT through PF_NORDR */
 /* #undef HAVE_PF_NAT_THROUGH_PF_NORDR */
 
+/* Define to 1 if you have a POSIX-style `strerror_r' function. */
+/* #undef HAVE_POSIX_STRERROR_R */
+
 /* define if you have the Septel API */
 /* #undef HAVE_SEPTEL_API */
 
@@ -181,9 +190,6 @@
 /* Define to 1 if you have the `strerror' function. */
 #define HAVE_STRERROR 1
 
-/* Define to 1 if you have the `strerror_r' function. */
-#define HAVE_STRERROR_R 1
-
 /* Define to 1 if you have the `strerror_s' function. */
 /* #undef HAVE_STRERROR_S */
 
@@ -194,14 +200,10 @@
 #define HAVE_STRING_H 1
 
 /* Define to 1 if you have the `strlcat' function. */
-#define HAVE_STRLCAT 1
+/* #undef HAVE_STRLCAT */
 
 /* Define to 1 if you have the `strlcpy' function. */
-#if defined(__ANDROID__)
-#define HAVE_STRLCPY 1
-#else
-#undef HAVE_STRLCPY
-#endif
+/* #undef HAVE_STRLCPY */
 
 /* Define to 1 if you have the `strtok_r' function. */
 #define HAVE_STRTOK_R 1
@@ -267,8 +269,14 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #define HAVE_UNISTD_H 1
 
+/* Define to 1 if you have the `vasprintf' function. */
+#define HAVE_VASPRINTF 1
+
 /* Define to 1 if you have the `vsnprintf' function. */
 #define HAVE_VSNPRINTF 1
+
+/* Define to 1 if you have the `vsyslog' function. */
+#define HAVE_VSYSLOG 1
 
 /* IPv6 */
 #define INET6 1
@@ -298,7 +306,7 @@
 #define PACKAGE_NAME "pcap"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "pcap 1.9.0-PRE-GIT"
+#define PACKAGE_STRING "pcap 1.9.1"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "pcap"
@@ -307,7 +315,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.9.0-PRE-GIT"
+#define PACKAGE_VERSION "1.9.1"
 
 /* target host supports Bluetooth sniffing */
 /* #undef PCAP_SUPPORT_BT */
