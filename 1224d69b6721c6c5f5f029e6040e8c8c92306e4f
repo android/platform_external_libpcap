@@ -81,6 +81,30 @@
       },
       "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acba3245_cab64d43",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-02-04T20:40:49Z",
+      "side": 1,
+      "message": "it would be much better to create the doc and the go/ link now (even if they\u0027re empty!) and have all this boilerplate point to something we can easily update.\n\na PSA doesn\u0027t help someone trying to fix this next year, but a link from \"what you\u0027re looking at\" to \"what you need to fix it\" does...",
+      "parentUuid": "ea0a431e_685dc171",
+      "range": {
+        "startLine": 29,
+        "startChar": 3,
+        "endLine": 31,
+        "endChar": 31
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
