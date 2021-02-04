@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5d86a6d_28ff8ece",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-02-04T17:37:41Z",
+      "side": 1,
+      "message": "your script already *has* this information, why not include it in the comment? or at least instructions to run the script to get that information. it\u0027s not really possible for a human to do it, and i\u0027m pretty sure the last thing you want is humans doing it.",
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33befb03_0fb32986",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-02-04T17:37:41Z",
+      "side": 1,
+      "message": "i think you need an example to link to here... i don\u0027t think anyone reading this actually knows exactly what you mean, or how to do it.",
+      "range": {
+        "startLine": 29,
+        "startChar": 3,
+        "endLine": 31,
+        "endChar": 31
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
