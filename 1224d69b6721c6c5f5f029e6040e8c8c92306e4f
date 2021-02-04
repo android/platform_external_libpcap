@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ccf9a4d_f8ae4eb4",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-04T19:42:45Z",
+      "side": 1,
+      "message": "Ack\n\nSometimes it\u0027s 1 file. Sometimes it\u0027s 1000. I cannot make \"perfect\" the enemy of \"better than what we have now\".",
+      "parentUuid": "b5d86a6d_28ff8ece",
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "33befb03_0fb32986",
@@ -31,6 +49,30 @@
       "writtenOn": "2021-02-04T17:37:41Z",
       "side": 1,
       "message": "i think you need an example to link to here... i don\u0027t think anyone reading this actually knows exactly what you mean, or how to do it.",
+      "range": {
+        "startLine": 29,
+        "startChar": 3,
+        "endLine": 31,
+        "endChar": 31
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea0a431e_685dc171",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-04T19:42:45Z",
+      "side": 1,
+      "message": "Ack\n\nI don\u0027t currently have an example, but I will be sending out a PSA later.",
+      "parentUuid": "33befb03_0fb32986",
       "range": {
         "startLine": 29,
         "startChar": 3,
