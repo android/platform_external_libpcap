@@ -155,6 +155,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c267b4f_a105ac86",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-05T09:42:26Z",
+      "side": 1,
+      "message": "Ack\n\nBecause I am not an expert in each and every project, and because I have a very large number of these to do in a short period of time, it\u0027s not feasible for me to determine whether anything else needs to be done.\n\nI leave that to the good judgment of the people who more regularly work with each project.",
+      "parentUuid": "669da139_eb1fabb2",
+      "range": {
+        "startLine": 29,
+        "startChar": 3,
+        "endLine": 31,
+        "endChar": 31
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "79573fe7_09bb4fe4",
@@ -226,6 +250,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb25a7a8_a4e8cf7f",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-05T09:42:26Z",
+      "side": 1,
+      "message": "If we had tools that reliably, and exactly distinguished among each of the 1000\u0027s of BSD and BSD-like license variants extant in the field, I would have already used those tools to write the large-scale-change.\n\nWe do have a tool that pretty reliably says \"Hey! There\u0027s a license here that somebody could look at!\" and it sometimes can also say it sorta, kinda looks like it might be a BSD-style license.\n\nThe license_text is meant to provide the details of the exact verbiage used in the license declaration.",
+      "parentUuid": "d07d01c7_790d8430",
+      "range": {
+        "startLine": 42,
+        "startChar": 8,
+        "endLine": 42,
+        "endChar": 37
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f66981d5_58a48cac",
@@ -287,6 +335,30 @@
       "side": 1,
       "message": "Sorry, but the version of the GPL is essential here. A technical limitation should not be the reason to put inaccurate information here.",
       "parentUuid": "7cd33d14_31c73bbf",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 38
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edb5e3e1_156df610",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-05T09:42:26Z",
+      "side": 1,
+      "message": "Essential for what? We currently treat every GPL variant as RESTRICTED.",
+      "parentUuid": "b165d3cf_baaf15e3",
       "range": {
         "startLine": 43,
         "startChar": 0,
