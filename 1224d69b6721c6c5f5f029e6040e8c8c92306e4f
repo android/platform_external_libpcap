@@ -107,6 +107,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "81e3b29e_9ac3aa08",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-05T09:07:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "acba3245_cab64d43",
+      "range": {
+        "startLine": 29,
+        "startChar": 3,
+        "endLine": 31,
+        "endChar": 31
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "79573fe7_09bb4fe4",
@@ -130,6 +154,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "61f88ae8_e4e193cf",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-05T09:07:07Z",
+      "side": 1,
+      "message": "You are welcome to change non-versioned license_kinds to the correct version license_kinds. If necessary, you are also welcome to add new versioned license_kind rules to build/soong/licenses/Android.bp",
+      "parentUuid": "79573fe7_09bb4fe4",
+      "range": {
+        "startLine": 42,
+        "startChar": 8,
+        "endLine": 42,
+        "endChar": 37
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f66981d5_58a48cac",
@@ -143,6 +191,30 @@
       "writtenOn": "2021-02-05T00:05:08Z",
       "side": 1,
       "message": "also note, this is not a valid SPDX identifier according to https://spdx.org/licenses/. GPL always carries a version. And the non-deprecated versions carry either \"-only\" or \"-or-later\"",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 38
+      },
+      "revId": "1224d69b6721c6c5f5f029e6040e8c8c92306e4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cd33d14_31c73bbf",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-05T09:07:07Z",
+      "side": 1,
+      "message": "Ack\n\nIt is, however, a valid license_kind defined globally at build/soong/licenses/Android.bp, which is what matters more here.",
+      "parentUuid": "f66981d5_58a48cac",
       "range": {
         "startLine": 43,
         "startChar": 0,
