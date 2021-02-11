@@ -12,6 +12,45 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+package {
+    default_applicable_licenses: ["external_libpcap_license"],
+}
+
+license {
+    name: "external_libpcap_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+        "SPDX-license-identifier-BSD",
+        "SPDX-license-identifier-ISC",
+        "SPDX-license-identifier-MIT",
+    ],
+    license_text: [
+        "LICENSE",
+        "NOTICE",
+    ],
+}
+
+// TODO: the only reference to GPL is in ieee80211.h which is 3BSD or "alternatively" GPLv2.
+
+license {
+    name: "external_libpcap_configure_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-GPL-3.0",
+    ],
+    license_text: [
+        "LICENSE",
+        "NOTICE",
+    ],
+}
+
+filegroup {
+    name: "external_libpcap_configure",
+    srcs: ["config.guess", "config.sub"],
+    visibility: ["//visibility:private"],
+}
+
 cc_defaults {
     name: "libpcap_defaults",
     cflags: [
