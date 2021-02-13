@@ -34,6 +34,24 @@
       "parentUuid": "f61e003e_f17b73cd",
       "revId": "388b7a312f11ba77223b9267467bdc7e7e7f9b38",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "baf13476_cd84722b",
+        "filename": "Android.bp",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-13T20:28:25Z",
+      "side": 1,
+      "message": "Sorry, previously I looked in the wrong location. (Missed the 1st p in pcap).\n\nThe reason the LSC script did what it did is: http://aosp/1294427\n\nIf we fix that and run the script again, I believe it will all be good.",
+      "parentUuid": "98894143_407a6fed",
+      "revId": "388b7a312f11ba77223b9267467bdc7e7e7f9b38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
